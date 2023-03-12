@@ -244,6 +244,10 @@ p {
     padding-left: 0;
   }
 
+  .list__heading {
+    margin-left: 0;
+  }
+
   .list--tick block__header {
     color: var(--color-heading);
   }
@@ -343,5 +347,16 @@ a {
   .collapsible--expanded .collapsible__content {
     max-height: 100%;
     opacity: 1;
+  }
+  
+  .footer {
+    background: #000;
+    opacity: 0.9;
+    padding: 2rem;
+  }
+
+  .footer p {
+    color: #fff;
+    opacity: 0.3;
   }
   
